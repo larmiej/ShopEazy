@@ -18,6 +18,11 @@ class ItemsTableSeeder extends Seeder
             ['name' => 'Ammonia', 'aisle' => '17'],
             ['name' => 'Analgesics', 'aisle' => 'Pharmacy'],
             ['name' => 'Automotive Suppliers', 'aisle' => 'Housewares'],
+            ['name' => 'Baby Milk', 'aisle' => 'Infant Needs'],
+            ['name' => 'Bake Ware', 'aisle' => 'Housewares'],
+            ['name' => 'Baby Food', 'aisle' => 'Infant Needs'],
+            ['name' => 'Baby Needs', 'aisle' => 'Infant Needs'],
+            ['name' => 'Baby Wipes', 'aisle' => 'Infant Needs'],
         ]);
 
     }

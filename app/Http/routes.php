@@ -16,13 +16,20 @@ Route::get('/', function () {
 });
 
 
-Route::group(array('prefix' => 'api'), function(){
-    Route::get('/test', function () {
-        return "Welcome to API";
-    });
-});
+
 
 Route::auth();
 
 //Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
+
+//Route::group(['middleware' => ['auth.basic']], function () {
+    Route::group(array('prefix' => 'api'), function(){
+
+        Route::resource('/items', 'api\apiItemsController');
+
+        Route::get('/test', function () {
+            return "Welcome to API";
+        });
+    });
+//});
