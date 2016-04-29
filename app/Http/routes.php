@@ -26,7 +26,7 @@ Route::get('/home', 'HomeController@index');
 //Route::group(['middleware' => ['auth.basic']], function () {
     Route::group(array('prefix' => 'api'), function(){
 
-        Route::resource('/items', 'api\apiItemsController');
+        Route::resource('/items', 'RESTapi\apiItemsController');
 
         Route::get('/test', function () {
             return "Welcome to API";
