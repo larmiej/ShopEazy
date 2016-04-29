@@ -18,6 +18,7 @@ class ItemsTableSeeder extends Seeder
             ['name' => 'Ammonia', 'aisle' => '17'],
             ['name' => 'Analgesics', 'aisle' => 'Pharmacy'],
             ['name' => 'Automotive Suppliers', 'aisle' => 'Housewares'],
+
             ['name' => 'Baby Milk', 'aisle' => 'Infant Needs'],
             ['name' => 'Bake Ware', 'aisle' => 'Housewares'],
             ['name' => 'Baby Food', 'aisle' => 'Infant Needs'],
@@ -48,6 +49,7 @@ class ItemsTableSeeder extends Seeder
             ['name' => 'Brushes', 'aisle' => '17'],
             ['name' => 'Buns, Bulk', 'aisle' => 'Bakery'],
             ['name' => 'Butter', 'aisle' => 'Dairy'],
+
             ['name' => 'Cake Decorating', 'aisle' => '7'],
             ['name' => 'Cake Mixes', 'aisle' => '7'],
             ['name' => 'Cake, Frozen', 'aisle' => '14, Bakery'],
@@ -100,6 +102,33 @@ class ItemsTableSeeder extends Seeder
             ['name' => 'Croutons', 'aisle' => '20'],
             ['name' => 'Crystals, Drink', 'aisle' => '22'],
             ['name' => 'Currants', 'aisle' => '8'],
+
+            ['name' => 'Diary Products', 'aisle' => 'Dairy'],
+            ['name' => 'Deli Foods', 'aisle' => 'Deli'],
+            ['name' => 'Dental Floss', 'aisle' => 'Pharmacy'],
+            ['name' => 'Deodorant, Personal', 'aisle' => 'Cosmetics'],
+            ['name' => 'Deodorant, Carpet', 'aisle' => '17'],
+            ['name' => 'Detergent, Liquid Laundry', 'aisle' => '9'],
+            ['name' => 'Detergent, Powder Laundry', 'aisle' => '9'],
+            ['name' => 'Diapers', 'aisle' => 'Infant Needs'],
+            ['name' => 'Dinners, Frozen', 'aisle' => '12'],
+            ['name' => 'Dinnerware', 'aisle' => 'Housewares'],
+            ['name' => 'Dish Detergent', 'aisle' => '16'],
+            ['name' => 'Distilled Water', 'aisle' => 'Pharmacy'],
+            ['name' => 'Dried Beans, Peas', 'aisle' => '18'],
+            ['name' => 'Dried Fruit', 'aisle' => '8'],
+            ['name' => 'Donuts', 'aisle' => 'Bakery'],
+            ['name' => 'Dog Food', 'aisle' => '11'],
+
+            ['name' => 'Imported Foods', 'aisle' => '7, 18, 19'],
+
+            ['name' => 'Eggs', 'aisle' => 'Dairy'],
+            ['name' => 'Electrical', 'aisle' => '17'],
+            ['name' => 'Extracts', 'aisle' => '7'],
+            ['name' => 'Eye Care', 'aisle' => 'Pharmacy'],
+            ['name' => 'Eye Glasses', 'aisle' => 'Optical'],
+
+
         ]);
 
     }

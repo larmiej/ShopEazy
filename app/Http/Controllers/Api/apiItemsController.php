@@ -17,7 +17,12 @@ class apiItemsController extends Controller
      */
     public function index()
     {
-        //
+        $result = Items::all();
+        return Response::json(array(
+            'error' => false,
+            'data' => $result),
+            200
+        );
     }
 
     /**
