@@ -28,6 +28,8 @@ Route::get('/home', 'HomeController@index');
 
         Route::resource('/items', 'RESTapi\apiItemsController');
 
+        Route::get('/version', 'RESTapi\apiItemsController@version');
+
         Route::get('/test', function () {
             return "Welcome to API";
         });

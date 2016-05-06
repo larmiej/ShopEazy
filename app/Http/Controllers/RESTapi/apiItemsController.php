@@ -36,6 +36,21 @@ class apiItemsController extends Controller
     }
 
     /**
+     * return db version.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function version()
+    {
+        $version = 1.0;
+        return Response::json(array(
+            'error' => false,
+            'version' => $version),
+            200
+        );
+    }
+
+    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
