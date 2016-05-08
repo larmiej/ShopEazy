@@ -42,7 +42,7 @@ class apiItemsController extends Controller
      */
     public function version()
     {
-        $version = 1.2;
+        $version = 1.3;
         return Response::json(array(
             'error' => false,
             'version' => $version),
